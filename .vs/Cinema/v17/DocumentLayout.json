@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\dtos\\createsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\dtos\\createsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\dtos\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\dtos\\sessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\helpers\\applicationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\helpers\\applicationprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E62B374-17C9-48A4-8948-17049F674440}|Cinema API\\Cinema API.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\cinema api\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E62B374-17C9-48A4-8948-17049F674440}|Cinema API\\Cinema API.csproj|solutionrelative:cinema api\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\interfaces\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\dtos\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\dtos\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\core\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}|Core\\Core.csproj|solutionrelative:core\\entities\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E62B374-17C9-48A4-8948-17049F674440}|Cinema API\\Cinema API.csproj|c:\\users\\admin\\desktop\\work\\asp.net\\.vs\\softserve\\cinema api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E62B374-17C9-48A4-8948-17049F674440}|Cinema API\\Cinema API.csproj|solutionrelative:cinema api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Migrations\\20240520202455_update-database2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240520202455_update-database2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,8 +58,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Cinema API\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "Cinema API\\Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Cinema API\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "Cinema API\\Controllers\\SessionController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAswDsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:57:46.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Interfaces\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ISessionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Interfaces\\ISessionService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ISessionService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:56:32.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\SessionDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\SessionDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\SessionDTO.cs",
+              "RelativeToolTip": "Core\\DTOs\\SessionDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:56:06.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\SessionService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Services\\SessionService.cs",
+              "RelativeToolTip": "Core\\Services\\SessionService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAADwvycAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:55:29.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateSessionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\CreateSessionDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\CreateSessionDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\CreateSessionDTO.cs*",
+              "RelativeToolTip": "Core\\DTOs\\CreateSessionDTO.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:55:08.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FilmService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Services\\FilmService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\FilmService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Services\\FilmService.cs",
+              "RelativeToolTip": "Core\\Services\\FilmService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:46:41.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Entities\\Film.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Film.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Entities\\Film.cs",
+              "RelativeToolTip": "Core\\Entities\\Film.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:46:38.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FilmDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\FilmDTO.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\FilmDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\DTOs\\FilmDTO.cs",
+              "RelativeToolTip": "Core\\DTOs\\FilmDTO.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:46:33.645Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -30,20 +174,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Cinema API\\Program.cs",
+              "RelativeDocumentMoniker": "Cinema API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Cinema API\\Program.cs",
+              "RelativeToolTip": "Cinema API\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:32:32.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Helpers\\ApplicationProfile.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\ApplicationProfile.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Helpers\\ApplicationProfile.cs",
+              "RelativeToolTip": "Core\\Helpers\\ApplicationProfile.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA0wBcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T20:30:29.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "20240520202455_update-database2.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Migrations\\20240520202455_update-database2.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240520202455_update-database2.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Migrations\\20240520202455_update-database2.cs",
               "RelativeToolTip": "Infrastructure\\Migrations\\20240520202455_update-database2.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T20:24:56.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "MockData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\MockData.cs",
               "RelativeDocumentMoniker": "Infrastructure\\MockData.cs",
