@@ -39,12 +39,21 @@ namespace Infrastructure
                 .WithMany(r => r.Sessions)
                 .HasForeignKey(s => s.RoomId);
 
-     
+            modelBuilder.Entity<Ticket>()
+              .HasOne(t => t.Session)
+              .WithMany(s => s.Tickets)
+              .HasForeignKey(t => t.SessionId);
+
+            modelBuilder.Entity<Ticket>()
+                .HasOne(t => t.User)
+                .WithMany()
+                .HasForeignKey(t => t.UserId);
 
             modelBuilder.SeedFilms();
             modelBuilder.SeedRooms();
             modelBuilder.SeedSessions();
         }
+        public DbSet<Ticket> Tickets { get; set; }
         public DbSet<Session> Sessions { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Film> Films { get; set; }
