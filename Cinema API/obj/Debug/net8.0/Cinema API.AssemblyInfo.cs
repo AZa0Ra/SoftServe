@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cinema API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ea2d44e9f5aeaecfc6c54973b232248c33f71b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+938de8fdf2a7a260cda9c3936cbf3423243b7037")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cinema API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cinema API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

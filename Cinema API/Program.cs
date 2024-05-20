@@ -25,6 +25,7 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IFilmService, FilmService>();
 builder.Services.AddScoped<IRoomService, RoomService>();
 builder.Services.AddScoped<ISessionService, SessionService>();
+builder.Services.AddScoped<ITicketService, TicketService>();
 
 // Add AutoMapper with profile classes
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -42,6 +43,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+builder.Services.AddHttpContextAccessor();
 app.UseHttpsRedirection();
 
 app.UseAuthentication();

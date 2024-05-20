@@ -4,6 +4,7 @@ using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Sockets;
 using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +28,8 @@ namespace Core.Helpers
             .ForMember(dest => dest.FilmName, opt => opt.MapFrom(src => src.Film.Title))
             .ForMember(dest => dest.RoomName, opt => opt.MapFrom(src => src.Room.Name));
             CreateMap<SessionDTO, Session>();
+
+            CreateMap<Ticket, TicketDTO>().ReverseMap();
         }
     }
 }

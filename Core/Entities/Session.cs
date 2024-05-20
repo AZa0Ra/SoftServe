@@ -19,7 +19,7 @@ namespace Core.Entities
         public int NormalReserved { get; set; }
         public decimal VipPrice { get; set; }
         public decimal NormalPrice { get; set; }
-        //public ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();
+        public ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();
         
         
     }
