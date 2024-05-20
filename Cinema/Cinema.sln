@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema API", "Cinema\Cinema API.csproj", "{9F53BCE3-0832-4AB6-91E3-C08C52EC836A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{13868608-1680-4D72-9A98-EDC9F55068DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F53BCE3-0832-4AB6-91E3-C08C52EC836A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F53BCE3-0832-4AB6-91E3-C08C52EC836A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F53BCE3-0832-4AB6-91E3-C08C52EC836A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F53BCE3-0832-4AB6-91E3-C08C52EC836A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D8CE5A-EA6B-4F47-B648-F693B8D346D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13868608-1680-4D72-9A98-EDC9F55068DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13868608-1680-4D72-9A98-EDC9F55068DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13868608-1680-4D72-9A98-EDC9F55068DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13868608-1680-4D72-9A98-EDC9F55068DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A2D4D5B-A999-4187-85D4-B8F43EF90C68}
+	EndGlobalSection
+EndGlobal
