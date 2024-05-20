@@ -1,5 +1,6 @@
 ﻿using Core.DTOs;
 using Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -35,6 +36,7 @@ namespace Cinema_API.Controllers
         }
 
         [HttpGet("all")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetAllTickets()
         {
             var tickets = ticketService.GetAllTickets();

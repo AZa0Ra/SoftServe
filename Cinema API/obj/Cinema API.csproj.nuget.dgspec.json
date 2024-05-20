@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Практика\\SoftServe\\Cinema API\\Cinema API.csproj": {}
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Cinema API\\Cinema API.csproj": {}
   },
   "projects": {
-    "D:\\Практика\\SoftServe\\Cinema API\\Cinema API.csproj": {
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Cinema API\\Cinema API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Практика\\SoftServe\\Cinema API\\Cinema API.csproj",
+        "projectUniqueName": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Cinema API\\Cinema API.csproj",
         "projectName": "Cinema API",
-        "projectPath": "D:\\Практика\\SoftServe\\Cinema API\\Cinema API.csproj",
-        "packagesPath": "C:\\Users\\Діма\\.nuget\\packages\\",
-        "outputPath": "D:\\Практика\\SoftServe\\Cinema API\\obj\\",
+        "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Cinema API\\Cinema API.csproj",
+        "packagesPath": "C:\\Users\\rosty\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Cinema API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Діма\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Практика\\SoftServe\\Core\\Core.csproj": {
-                "projectPath": "D:\\Практика\\SoftServe\\Core\\Core.csproj"
+              "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj": {
+                "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj"
               },
-              "D:\\Практика\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Практика\\SoftServe\\Infrastructure\\Infrastructure.csproj"
+              "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -45,11 +41,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -116,25 +107,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Практика\\SoftServe\\Core\\Core.csproj": {
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Практика\\SoftServe\\Core\\Core.csproj",
+        "projectUniqueName": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Практика\\SoftServe\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Діма\\.nuget\\packages\\",
-        "outputPath": "D:\\Практика\\SoftServe\\Core\\obj\\",
+        "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\rosty\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Діма\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,11 +141,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -218,25 +200,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Практика\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Практика\\SoftServe\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Практика\\SoftServe\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Діма\\.nuget\\packages\\",
-        "outputPath": "D:\\Практика\\SoftServe\\Infrastructure\\obj\\",
+        "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rosty\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Діма\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -250,8 +228,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Практика\\SoftServe\\Core\\Core.csproj": {
-                "projectPath": "D:\\Практика\\SoftServe\\Core\\Core.csproj"
+              "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj": {
+                "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj"
               }
             }
           }
@@ -260,11 +238,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -324,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

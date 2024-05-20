@@ -19,22 +19,23 @@ namespace Cinema_API.Controllers
             this.roomService = roomService;
         }
 
-        [HttpGet("collection")]          
+        [HttpGet("collection")]
         public IActionResult GetAll()
         {
             return Ok(roomService.GetAll());
         }
 
 
-       
+
         [HttpGet("{id}")]
-        public IActionResult Get([FromRoute] int id) 
+        public IActionResult Get([FromRoute] int id)
         {
             return Ok(roomService.Get(id));
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] RoomDTO room) 
+        [Authorize(Roles = "Admin")]
+        public IActionResult Create([FromBody] RoomDTO room)
         {
             if (!ModelState.IsValid) return BadRequest();
 
@@ -43,7 +44,8 @@ namespace Cinema_API.Controllers
             return Ok();
         }
 
-       [HttpPut]
+        [HttpPut]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit([FromBody] RoomDTO room)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -53,7 +55,8 @@ namespace Cinema_API.Controllers
             return Ok();
         }
 
-         [HttpDelete("{id}")]
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete([FromRoute] int id)
         {
             roomService.Delete(id);
