@@ -19,7 +19,7 @@ namespace Cinema_API.Controllers
             this.sessionService = sessionService;
         }
 
-        [HttpGet("collection")]          
+        [HttpGet("collection")]
         public IActionResult GetAll()
         {
             return Ok(sessionService.GetAll());
@@ -47,7 +47,8 @@ namespace Cinema_API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create([FromBody] CreateSessionDTO session) 
+        [Authorize(Roles = "Admin")]
+        public IActionResult Create([FromBody] CreateSessionDTO session)
         {
             if (!ModelState.IsValid) return BadRequest();
 
@@ -56,7 +57,8 @@ namespace Cinema_API.Controllers
             return Ok();
         }
 
-         [HttpPut]
+        [HttpPut]
+        [Authorize(Roles = "Admin")]
         public IActionResult Edit([FromBody] CreateSessionDTO session)
         {
             if (!ModelState.IsValid) return BadRequest();
@@ -66,7 +68,8 @@ namespace Cinema_API.Controllers
             return Ok();
         }
 
-         [HttpDelete("{id}")]
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete([FromRoute] int id)
         {
             sessionService.Delete(id);

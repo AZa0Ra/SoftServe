@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Практика\\SoftServe\\Core\\Core.csproj": {}
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\Практика\\SoftServe\\Core\\Core.csproj": {
+    "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Практика\\SoftServe\\Core\\Core.csproj",
+        "projectUniqueName": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Практика\\SoftServe\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Діма\\.nuget\\packages\\",
-        "outputPath": "D:\\Практика\\SoftServe\\Core\\obj\\",
+        "projectPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\rosty\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\NLTU\\Practice\\Cinema\\SoftServe\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Діма\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\rosty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
