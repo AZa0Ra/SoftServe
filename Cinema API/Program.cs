@@ -24,6 +24,7 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 // Add services
 builder.Services.AddScoped<IFilmService, FilmService>();
 builder.Services.AddScoped<IRoomService, RoomService>();
+builder.Services.AddScoped<ISessionService, SessionService>();
 
 // Add AutoMapper with profile classes
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());

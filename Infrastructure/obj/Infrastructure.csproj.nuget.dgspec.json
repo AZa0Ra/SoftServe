@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\pracSoftServe\\SoftServe\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\pracSoftServe\\SoftServe\\Core\\Core.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\pracSoftServe\\SoftServe\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\pracSoftServe\\SoftServe\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\pracSoftServe\\SoftServe\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,17 +102,21 @@
         }
       }
     },
-    "D:\\pracSoftServe\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\pracSoftServe\\SoftServe\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\pracSoftServe\\SoftServe\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\pracSoftServe\\SoftServe\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,8 +130,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\pracSoftServe\\SoftServe\\Core\\Core.csproj": {
-                "projectPath": "D:\\pracSoftServe\\SoftServe\\Core\\Core.csproj"
+              "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\Work\\ASP.NET\\.vs\\SoftServe\\Core\\Core.csproj"
               }
             }
           }

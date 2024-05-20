@@ -19,6 +19,14 @@ namespace Core.Helpers
 
             CreateMap<RoomDTO, Room>();
             CreateMap<Room, RoomDTO>();
+
+            CreateMap<Session, CreateSessionDTO>();
+            CreateMap<CreateSessionDTO, Session>();
+
+            CreateMap<Session, SessionDTO>()
+            .ForMember(dest => dest.FilmName, opt => opt.MapFrom(src => src.Film.Title))
+            .ForMember(dest => dest.RoomName, opt => opt.MapFrom(src => src.Room.Name));
+            CreateMap<SessionDTO, Session>();
         }
     }
 }

@@ -151,7 +151,130 @@ namespace Infrastructure
                     Rating = "6.4",
                     ReleaseDate = new DateTime(2024, 04, 26, 00, 00, 00),
                     AgeRestriction = 16
-                }
+                },
+
+                new Film()
+                {
+                    Id = 10,
+                    Title = "The Truman Show",
+                    Description = "An insurance salesman discovers his whole life is actually a reality TV show.",
+                    Actors = "Jim Carrey, Ed Harris, Laura Linney, Noah Emmerich, Natascha McElhore, Holland Taylor",
+                    Trailer = "https://www.youtube.com/watch?v=dlnmQbPGuls",
+                    Genre = "Drama, Comedy",
+                    Rating = "8.2",
+                    ReleaseDate = new DateTime(1998, 06, 05, 13, 35, 00),
+                    AgeRestriction = 12
+                },
+new Film()
+                {
+                    Id = 11,
+                    Title = "Iron Man",
+                    Description = "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+                    Actors = "Robert Downey Jr, Gwyneth Paltrow, Terrence Howard, Jeff Bridges, Leslie Bibb, Shaun Toub",
+                    Trailer = "https://www.youtube.com/watch?v=8ugaeA-nMTc",
+                    Genre = "Adventure, Action, Ski-Fi",
+                    Rating = "7.9",
+                    ReleaseDate = new DateTime(2008, 05, 01, 12, 20, 00),
+                    AgeRestriction = 16
+                },
+new Film()
+                {
+                    Id = 12,
+                    Title = "Captain America: The First Avenger",
+                    Description = "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum .But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.",
+                    Actors = "Chris Evans, Hugo Weaving, Samuel L Jackson, Hayley Atwell, Stanley Tucci, Sebastian Stan",
+                    Trailer = "https://www.youtube.com/watch?v=JerVrbLldXw",
+                    Genre = "Ski-Fi, Adventure, Action",
+                    Rating = "6.9",
+                    ReleaseDate = new DateTime(2011, 07, 22, 18, 35, 00),
+                    AgeRestriction = 16
+                },
+new Film()
+                {
+                    Id = 13,
+                    Title = "Chocolat",
+                    Description = "A French woman and her young daughter open up a chocolate shop in a small remote village that shakes up the rigid morality of the community.",
+                    Actors = "Juliete Binoche, Johnny Deep, Judi Dench, Alfred Molina, Antonio Gil, Ron Cook, Lena Olin, John Wood",
+                    Trailer = "https://www.youtube.com/watch?v=692hOJq1KJE",
+                    Genre = "Drama, Romance",
+                    Rating = "7.2",
+                    ReleaseDate = new DateTime(2001, 01, 19, 04, 10, 00),
+                    AgeRestriction = 18
+                },
+new Film()
+                {
+                    Id = 14,
+                    Title = "Charlie and the Chocolate Factory",
+                    Description = "Charlie, a young boy from an impoverished family, and four other kids win a tour of an amazing chocolate factory run by an imaginative chocolatier, Willy Wonka, and his staff of Oompa-Loompas.",
+                    Actors = "Johnny Deep, Freddie Highmore, David Kelly, Helena Bonham Carter, Noah Taylor, Missi Pyle, James Fox, Adam Godley, Julia Winter",
+                    Trailer = "https://www.youtube.com/watch?v=OFVGCUIXJls",
+                    Genre = "Adventure, Comedy, Musical, Family, Fantasy",
+                    Rating = "6.7",
+                    ReleaseDate = new DateTime(2005, 07, 15, 20, 05, 00),
+                    AgeRestriction = 12
+                },
+new Film()
+                {
+                    Id = 15,
+                    Title = "What's Eating Gilbert Grape",
+                    Description = "A young man in a small Midwestern town struggles to care for his mentally-disabled younger brother and morbidly obese mother while attempting to pursue his own happiness.",
+                    Actors = "Johnny Deep, Leonardo DiCaprio, Juliette Lewis, Mary Steenburgen, Darlene Cates, Laura Harrington, Kevin Tighe, Marry Kate Schellhardt, Cameron Finley, Crispin Glover",
+                    Trailer = "https://www.youtube.com/watch?v=nCsVjQaNV0E",
+                    Genre = "Drama",
+                    Rating = "7.7",
+                    ReleaseDate = new DateTime(1994, 03, 04, 13, 50, 00),
+                    AgeRestriction = 18
+                },
+new Film()
+                {
+                    Id = 16,
+                    Title = "Titanic",
+                    Description = "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+                    Actors = "Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Frances Fisher, Gloria Stuart, Bill Paxton, David Warner, Victor Garber, Bernard Hill, Suzy Amis",
+                    Trailer = "https://www.youtube.com/watch?v=I7c1etV7D7g",
+                    Genre = "Romance, Drama",
+                    Rating = "7.9",
+                    ReleaseDate = new DateTime(1997, 12, 19, 11, 15, 00),
+                    AgeRestriction = 18
+                },
+new Film()
+                {
+                    Id = 17,
+                    Title = "Back To Black",
+                    Description = "The life and music of Amy Winehouse, through the journey of adolescence to adulthood and the creation of one of the best-selling albums of our time.",
+                    Actors = "Marisa Abela, Eddie Marsan, Lesley Manville, Juliet Cowan, Anna Darvas, Harley Bird, Thelma Ruby",
+                    Trailer = "https://www.youtube.com/watch?v=rYzIOBwyhIU",
+                    Genre = "Biography",
+                    Rating = "6.6",
+                    ReleaseDate = new DateTime(2024, 05, 17, 12, 20, 00),
+                    AgeRestriction = 16
+                },
+new Film()
+                {
+                    Id = 18,
+                    Title = "Civil War",
+                    Description = "A journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House.",
+                    Actors = "Kirsten Dunst, Wagner Moura, Cailee Spaeny, Nick Offerman, Jefferson White, Evan Nai",
+                    Trailer = "https://www.youtube.com/watch?v=rYzIOBwyhIU",
+                    Genre = "Adventure, Action",
+                    Rating = "7.6",
+                    ReleaseDate = new DateTime(2024, 05, 19, 20, 00, 00),
+                    AgeRestriction = 18
+                },
+new Film()
+                {
+                    Id = 19,
+                    Title = "IF",
+                    Description = "A young girl who goes through a difficult experience begins to see everyone's imaginary friends who have been left behind as their real-life friends have grown up.",
+                    Actors = "Cailey Fleming, Ryan Reynolds, john Krasinski, Fiona Shaw, Stewe Carell, Alan Kim, Phoebe Waller-Bridge",
+                    Trailer = "https://www.youtube.com/watch?v=ss2KvK-w6w8",
+                    Genre = "Family, Comedy, Drama",
+                    Rating = "7.4",
+                    ReleaseDate = new DateTime(2024, 05, 16, 12, 20, 00),
+                    AgeRestriction = 10
+                },
+
+
             })  ;
         }
 
