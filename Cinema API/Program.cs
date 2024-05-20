@@ -1,8 +1,33 @@
+using Core.Interfaces;
+using Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using Core.Services;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+string connectionString = builder.Configuration.GetConnectionString("LocalDb");
 
+// Add services to the container.
+builder.Services.AddDbContext<CinemaDbContext>(x => x.UseSqlServer(connectionString));
 builder.Services.AddControllers();
+
+// Add Identity services
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<CinemaDbContext>()
+    .AddDefaultTokenProviders();
+
+// Add repository
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+// Add services
+builder.Services.AddScoped<IFilmService, FilmService>();
+builder.Services.AddScoped<IRoomService, RoomService>();
+
+// Add AutoMapper with profile classes
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -18,6 +43,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
